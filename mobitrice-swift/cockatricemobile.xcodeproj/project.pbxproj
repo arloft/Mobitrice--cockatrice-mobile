@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B375B10209E54B1004A8E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B375B0F209E54B1004A8E76 /* AppDelegate.swift */; };
+		2B375B12209E54B1004A8E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B375B11209E54B1004A8E76 /* ViewController.swift */; };
+		2B375B15209E54B1004A8E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B375B13209E54B1004A8E76 /* Main.storyboard */; };
+		2B375B17209E54B1004A8E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B375B16209E54B1004A8E76 /* Assets.xcassets */; };
+		2B375B1A209E54B1004A8E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B375B18209E54B1004A8E76 /* LaunchScreen.storyboard */; };
+		2B375B25209E54B1004A8E76 /* cockatricemobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B375B24209E54B1004A8E76 /* cockatricemobileTests.swift */; };
+		2B375B30209E54B1004A8E76 /* cockatricemobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B375B2F209E54B1004A8E76 /* cockatricemobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B375B21209E54B1004A8E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B375B04209E54B1004A8E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B375B0B209E54B1004A8E76;
+			remoteInfo = cockatricemobile;
+		};
+		2B375B2C209E54B1004A8E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B375B04209E54B1004A8E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B375B0B209E54B1004A8E76;
+			remoteInfo = cockatricemobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B375B0C209E54B1004A8E76 /* cockatricemobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cockatricemobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B375B0F209E54B1004A8E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B375B11209E54B1004A8E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B375B14209E54B1004A8E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B375B16209E54B1004A8E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B375B19209E54B1004A8E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B375B1B209E54B1004A8E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B375B20209E54B1004A8E76 /* cockatricemobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cockatricemobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B375B24209E54B1004A8E76 /* cockatricemobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cockatricemobileTests.swift; sourceTree = "<group>"; };
+		2B375B26209E54B1004A8E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B375B2B209E54B1004A8E76 /* cockatricemobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cockatricemobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B375B2F209E54B1004A8E76 /* cockatricemobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cockatricemobileUITests.swift; sourceTree = "<group>"; };
+		2B375B31209E54B1004A8E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B375B09209E54B1004A8E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B375B1D209E54B1004A8E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B375B28209E54B1004A8E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B375B03209E54B1004A8E76 = {
+			isa = PBXGroup;
+			children = (
+				2B375B0E209E54B1004A8E76 /* cockatricemobile */,
+				2B375B23209E54B1004A8E76 /* cockatricemobileTests */,
+				2B375B2E209E54B1004A8E76 /* cockatricemobileUITests */,
+				2B375B0D209E54B1004A8E76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B375B0D209E54B1004A8E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B375B0C209E54B1004A8E76 /* cockatricemobile.app */,
+				2B375B20209E54B1004A8E76 /* cockatricemobileTests.xctest */,
+				2B375B2B209E54B1004A8E76 /* cockatricemobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B375B0E209E54B1004A8E76 /* cockatricemobile */ = {
+			isa = PBXGroup;
+			children = (
+				2B375B0F209E54B1004A8E76 /* AppDelegate.swift */,
+				2B375B11209E54B1004A8E76 /* ViewController.swift */,
+				2B375B13209E54B1004A8E76 /* Main.storyboard */,
+				2B375B16209E54B1004A8E76 /* Assets.xcassets */,
+				2B375B18209E54B1004A8E76 /* LaunchScreen.storyboard */,
+				2B375B1B209E54B1004A8E76 /* Info.plist */,
+			);
+			path = cockatricemobile;
+			sourceTree = "<group>";
+		};
+		2B375B23209E54B1004A8E76 /* cockatricemobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B375B24209E54B1004A8E76 /* cockatricemobileTests.swift */,
+				2B375B26209E54B1004A8E76 /* Info.plist */,
+			);
+			path = cockatricemobileTests;
+			sourceTree = "<group>";
+		};
+		2B375B2E209E54B1004A8E76 /* cockatricemobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B375B2F209E54B1004A8E76 /* cockatricemobileUITests.swift */,
+				2B375B31209E54B1004A8E76 /* Info.plist */,
+			);
+			path = cockatricemobileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B375B0B209E54B1004A8E76 /* cockatricemobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B375B34209E54B1004A8E76 /* Build configuration list for PBXNativeTarget "cockatricemobile" */;
+			buildPhases = (
+				2B375B08209E54B1004A8E76 /* Sources */,
+				2B375B09209E54B1004A8E76 /* Frameworks */,
+				2B375B0A209E54B1004A8E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cockatricemobile;
+			productName = cockatricemobile;
+			productReference = 2B375B0C209E54B1004A8E76 /* cockatricemobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B375B1F209E54B1004A8E76 /* cockatricemobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B375B37209E54B1004A8E76 /* Build configuration list for PBXNativeTarget "cockatricemobileTests" */;
+			buildPhases = (
+				2B375B1C209E54B1004A8E76 /* Sources */,
+				2B375B1D209E54B1004A8E76 /* Frameworks */,
+				2B375B1E209E54B1004A8E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B375B22209E54B1004A8E76 /* PBXTargetDependency */,
+			);
+			name = cockatricemobileTests;
+			productName = cockatricemobileTests;
+			productReference = 2B375B20209E54B1004A8E76 /* cockatricemobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B375B2A209E54B1004A8E76 /* cockatricemobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B375B3A209E54B1004A8E76 /* Build configuration list for PBXNativeTarget "cockatricemobileUITests" */;
+			buildPhases = (
+				2B375B27209E54B1004A8E76 /* Sources */,
+				2B375B28209E54B1004A8E76 /* Frameworks */,
+				2B375B29209E54B1004A8E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B375B2D209E54B1004A8E76 /* PBXTargetDependency */,
+			);
+			name = cockatricemobileUITests;
+			productName = cockatricemobileUITests;
+			productReference = 2B375B2B209E54B1004A8E76 /* cockatricemobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B375B04209E54B1004A8E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aaron Arlof";
+				TargetAttributes = {
+					2B375B0B209E54B1004A8E76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2B375B1F209E54B1004A8E76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B375B0B209E54B1004A8E76;
+					};
+					2B375B2A209E54B1004A8E76 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B375B0B209E54B1004A8E76;
+					};
+				};
+			};
+			buildConfigurationList = 2B375B07209E54B1004A8E76 /* Build configuration list for PBXProject "cockatricemobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B375B03209E54B1004A8E76;
+			productRefGroup = 2B375B0D209E54B1004A8E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B375B0B209E54B1004A8E76 /* cockatricemobile */,
+				2B375B1F209E54B1004A8E76 /* cockatricemobileTests */,
+				2B375B2A209E54B1004A8E76 /* cockatricemobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B375B0A209E54B1004A8E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B375B1A209E54B1004A8E76 /* LaunchScreen.storyboard in Resources */,
+				2B375B17209E54B1004A8E76 /* Assets.xcassets in Resources */,
+				2B375B15209E54B1004A8E76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B375B1E209E54B1004A8E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B375B29209E54B1004A8E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B375B08209E54B1004A8E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B375B12209E54B1004A8E76 /* ViewController.swift in Sources */,
+				2B375B10209E54B1004A8E76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B375B1C209E54B1004A8E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B375B25209E54B1004A8E76 /* cockatricemobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B375B27209E54B1004A8E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B375B30209E54B1004A8E76 /* cockatricemobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B375B22209E54B1004A8E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B375B0B209E54B1004A8E76 /* cockatricemobile */;
+			targetProxy = 2B375B21209E54B1004A8E76 /* PBXContainerItemProxy */;
+		};
+		2B375B2D209E54B1004A8E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B375B0B209E54B1004A8E76 /* cockatricemobile */;
+			targetProxy = 2B375B2C209E54B1004A8E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B375B13209E54B1004A8E76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B375B14209E54B1004A8E76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B375B18209E54B1004A8E76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B375B19209E54B1004A8E76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B375B32209E54B1004A8E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B375B33209E54B1004A8E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B375B35209E54B1004A8E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cockatricemobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.aaronarlof.cockatricemobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B375B36209E54B1004A8E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cockatricemobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.aaronarlof.cockatricemobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B375B38209E54B1004A8E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cockatricemobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.aaronarlof.cockatricemobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cockatricemobile.app/cockatricemobile";
+			};
+			name = Debug;
+		};
+		2B375B39209E54B1004A8E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cockatricemobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.aaronarlof.cockatricemobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cockatricemobile.app/cockatricemobile";
+			};
+			name = Release;
+		};
+		2B375B3B209E54B1004A8E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cockatricemobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.aaronarlof.cockatricemobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cockatricemobile;
+			};
+			name = Debug;
+		};
+		2B375B3C209E54B1004A8E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cockatricemobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.aaronarlof.cockatricemobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cockatricemobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B375B07209E54B1004A8E76 /* Build configuration list for PBXProject "cockatricemobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B375B32209E54B1004A8E76 /* Debug */,
+				2B375B33209E54B1004A8E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B375B34209E54B1004A8E76 /* Build configuration list for PBXNativeTarget "cockatricemobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B375B35209E54B1004A8E76 /* Debug */,
+				2B375B36209E54B1004A8E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B375B37209E54B1004A8E76 /* Build configuration list for PBXNativeTarget "cockatricemobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B375B38209E54B1004A8E76 /* Debug */,
+				2B375B39209E54B1004A8E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B375B3A209E54B1004A8E76 /* Build configuration list for PBXNativeTarget "cockatricemobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B375B3B209E54B1004A8E76 /* Debug */,
+				2B375B3C209E54B1004A8E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B375B04209E54B1004A8E76 /* Project object */;
+}
