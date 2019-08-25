@@ -10,8 +10,8 @@ Cockatrice is designed with a desktop computer in mind. It requires a mouse/trac
 Unknown. The initial concept design of the most basic game features is needed; I'm a little way through that part. Other parts need to be designed such as login, connecting to a server, lobby actions, chat, friends list, etc. It's a *long* list.  
 When should you expect a version of Cockatrice for your phone? Not soon, but at least the wheels are in (slow) motion.
 
-**More**  
-This repo is more an aggregator of ideas, concepts, wireframes, and documents I'm building for this project. I have no control over whether these are made into a real application, that's up to the official [Cockatrice dev team](https://cockatrice.github.io)
+**More…**  
+This repo is an aggregator of ideas, concepts, wireframes, and documents I'm building for this project. I have no control over whether these are made into a real application, that's up to the official [Cockatrice dev team](https://cockatrice.github.io).
 
 **Interactive UX Concepts**  
 [Mobitrice Concepts](https://scratch.mit.edu/studios/25119302/)  
