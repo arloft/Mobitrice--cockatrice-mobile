@@ -14,7 +14,7 @@ When should you expect a version of Cockatrice for your phone? Not soon, but at 
 This repo is more an aggregator of ideas, concepts, wireframes, and documents I'm building for this project. I have no control over whether these are made into a real application, that's up to the official [Cockatrice dev team](https://cockatrice.github.io)
 
 **Interactive UX Concepts**  
-[Mobitrice Concepts](https://scratch.mit.edu/studios/25119302/)
+[Mobitrice Concepts](https://scratch.mit.edu/studios/25119302/)  
 Built with MIT Scratch v3, viewable in your browser (Flash no longer needed!)
 
 UX Wireframes coming soon.
